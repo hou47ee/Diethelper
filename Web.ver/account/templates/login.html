@@ -1,0 +1,58 @@
+<html lang="zh-TW">
+
+<head>
+ <title>DietHelper-Login</title>
+ <style type="text/css">
+ .h1{
+     background-color:#7E3D76;color:white;font-weight:bold;font-size:30px;
+     text-align:center;padding:10px;font-family:monospace;
+ }
+ .Inputs{
+     text-align:center;padding:40px;font-weight:bold;
+ }
+ a:link{
+     text-decoration:none;
+     color:#F75000;
+     background-color:#ffffff;
+ }
+ a:hover {
+    text-decoration:underline;
+    background-color:#fafafa;
+    color:gray;
+ }
+ </style>
+</head>
+
+<body style="margin:0px;">
+
+ <div class="h1">會員登入</div>
+ <form class="Inputs" method="POST">
+ {% csrf_token %}
+ <label for="username">使用者名稱:</label>
+ <input type="username" id="username" name="username"/>
+ <label for="pswd"><br /><br />密碼:</label>
+ <input type="password" id="pswd" name="password"/>
+ <button type="submit">登入</button><br>
+ <a href="{% url 'home' %}" style="font-size:20px;"><br>返回首頁</a>
+ <p></p>
+ 
+ {% if form.errors %}
+ {% for field in form %}
+ {% for error in field.errors %}
+ <div class="alert alert-danger">
+ <strong>{{ error|escape }}</strong>
+ </div>
+ {% endfor %}
+ {% endfor %}
+ {% for error in form.non_field_errors %}
+ <div class="alert alert-danger">
+ <strong>{{ error|escape }}</strong>
+ </div>
+ {% endfor %}
+ {% endif %}
+ </form>
+</body>
+
+</html>
+
+

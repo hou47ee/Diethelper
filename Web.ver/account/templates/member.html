@@ -1,0 +1,68 @@
+<html lang="zh-TW">
+
+<head>
+ <title>DietHelper-Member</title>
+ <style type="text/css">
+ .h1{
+     background-color:#408080;color:white;font-weight:bold;font-size:30px;
+     text-align:center;padding:10px;font-family:monospace;
+     display: flex;
+     justify-content: center; 
+     align-items: center; 
+ }
+ a:link{
+     text-decoration:none;
+     color:#F75000;
+     background-color:#ffffff;
+ }
+ a:hover {
+    text-decoration:underline;
+    background-color:#fafafa;
+    color:gray;
+ }
+ .box{
+     width:600px;padding:10px;background-color:white;text-align:center;font-size:20px;
+     margin-left:auto;margin-right:auto;
+     justify-content:center;
+     align-content: center;
+     flex-wrap:wrap;
+ }
+.container{
+     width:550px;
+     margin-left:auto;margin-right:auto;font-size:20px;
+     display:flex
+     justify-content:center;
+     align-content: center;
+     flex-wrap:wrap;
+     text-align:center;
+     padding:20px;
+ }
+ </style>
+</head>
+
+<body style="margin:0px;background-color:#eeeeee">
+
+ <div class="h1">我的身體紀錄</div>
+ <div class="container">
+     
+     {% if nodata == True %}
+     <div>時間: {{ time }}</div><br><br>
+     <div class="box">
+     <div>身高: No Data</div><br>
+     <div>體重: No Data</div><br>
+     <div>BMI: No Data</div><br>
+     {% else %}
+     <div>時間: {{ time | date:"Y/m/d   H:i" }}</div><br><br>
+     <div class="box">
+     <div>身高: {{ height }}</div><br>
+     <div>體重: {{ weight }}</div><br>
+     <div>BMI: {{ bmi }}</div><br>
+     {% endif %}
+     <a href="{% url 'addata' %}"><br>新增資料</a>
+     &nbsp;&nbsp;<a href="{% url 'history' %}">查詢過去資料</a>
+     &nbsp;&nbsp;<a href="{% url 'home' %}">回首頁</a> 
+     </div>
+ </div>
+</body>
+
+</html>

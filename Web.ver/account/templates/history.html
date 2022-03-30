@@ -1,0 +1,95 @@
+<html lang="zh-TW">
+
+<head>
+ <title>DietHelper-Member-History</title>
+ <style type="text/css">
+ .h1{
+     background-color:#408080;color:white;font-weight:bold;font-size:30px;
+     text-align:center;padding:10px;font-family:monospace;
+     display: flex;
+     justify-content: center; 
+     align-items: center; 
+ }
+ a:link{
+     text-decoration:none;
+     color:#F75000;
+ }
+ a:hover {
+    text-decoration:underline;
+    background-color:#fafafa;
+    color:gray;
+ }
+ .container{
+     width:600px;
+     margin-left:auto;margin-right:auto;
+     display:flex
+     justify-content:center;
+     align-content: center;
+     flex-wrap:wrap;
+ }
+ .box{
+     width:550px;padding:30px;background-color:white;
+     margin-left:auto;margin-right:auto;
+     display:flex;
+     justify-content:center;
+     align-content: center;
+     flex-wrap:wrap;
+     
+ }
+ .other{
+     text-align:center;
+     
+     font-size:20px;
+     font-weight:bold;
+ }
+ </style>
+</head>
+
+<body style="margin:0px;background-color:#eeeeee">
+
+ <div class="h1">過去的身體紀錄</div>
+ <div class="container">
+     <div class="box">
+     {% if nodata == True %}
+     <div>尚無資料</div><br><br>
+     {% else %}
+     <table border="1" width= "700px" style="font-size:17px;">
+         <tr>
+             <td></td>
+             <td>時間</td>
+             <td>身高</td>
+             <td>體重</td>
+             <td>BMI</td>    
+         </tr>
+         <tbody id="number">
+             {% for data in alldata %}
+             <tr>
+                 <td></td>
+                 <td>{{ data.time | date:"Y/m/d   H:i" }}</td>
+                 <td>{{ data.height }}</td>
+                 <td>{{ data.weight }}</td>
+                 <td>{{ data.BMI }}</td>    
+             </tr>
+             {% endfor %}
+         </tbody>
+         <script>
+          window.onload = function () {
+             var tableLine = document.getElementById("number");
+             for (var i = 0; i < tableLine.rows.length; i++) {
+                 tableLine.rows[i].cells[0].innerHTML = (i + 1);
+             }
+          }
+         </script>
+     </table>
+     </div>
+     <div class="other">
+     <a href="{% url 'deldata' %}"><br>刪除資料</a>
+     {% endif %}
+     
+     <a href="{% url 'member' %}"><br><br>回上層</a>
+     &nbsp;&nbsp;<a href="{% url 'home' %}">回首頁</a> 
+     </div>
+    </div>
+</body>
+
+</html>

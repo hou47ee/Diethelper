@@ -1,0 +1,54 @@
+<html lang="zh-TW">
+
+<head>
+ <title>DietHelper-Member-AddData</title>
+ <style type="text/css">
+ .box{
+     text-align:center;margin:90px;
+     font-size:18px;
+     font-weight:bold;
+ 
+ }
+ a:link{
+     text-decoration:none;
+     color:#F75000;
+ }
+ a:hover {
+    text-decoration:underline;
+    background-color:#fafafa;
+    color:gray;
+ }
+ </style>
+</head>
+
+<body style="margin:0px;background-color:#eeeeee">
+
+ <div class="box">
+ <form class="Calculate" method="POST">
+ {% csrf_token %}
+ {% if cal is True %}
+ <label for="height">身高:</label>
+ <input type="number" step="0.01" id="height" name="height" value="{{h}}" required="required"/>
+ <label for="weight"><br /><br />體重:</label>
+ <input type="number" step="0.01" id="weight" name="weight" value="{{w}}" required="required"/><br><br>
+ <div>BMI: {{bmi}}</div><br>
+ <button type="submit" name= "cal">計算</button>&nbsp;&nbsp;
+ <button type="submit" name= "save">儲存</button><br>
+ {% else %}
+ <label for="height">身高:</label>
+ <input type="number" step="0.01" id="height" name="height" required="required"/>
+ <label for="weight"><br /><br />體重:</label>
+ <input type="number" step="0.01" id="weight" name="weight" required="required"/><br><br>
+ <p></p>
+ <button type="submit" name= "cal">計算</button>&nbsp;&nbsp;
+ <button type="submit" name= "save">儲存</button><br>
+ {% endif %}
+ 
+ <a href="{% url 'member' %}"><br>返回  </a>
+ </form>
+ 
+ </div>
+ 
+</body>
+
+</html>

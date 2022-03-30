@@ -1,0 +1,58 @@
+<html lang="zh-TW">
+
+<head>
+ <title>DietHelper-Success</title>
+ <style type="text/css">
+ .h1{
+     background-color:#408080;color:white;font-weight:bold;font-size:30px;
+     text-align:center;padding:10px;font-family:monospace;
+ }
+ a:link{
+     text-decoration:none;
+     color:#F75000;
+     background-color:#ffffff;
+ }
+ a:hover {
+    text-decoration:underline;
+    background-color:#fafafa;
+    color:gray;
+ }
+ .context{
+     text-align:center;
+     font-size:20px;
+     font-weight:bold;
+ 
+ }
+ </style>
+</head>
+
+<body style="margin:0px;">
+
+ <div class="h1">註冊成功!!</div>
+ <div class="context">
+ <content>還有<span id="sp">5</span>秒將自動跳回首頁</content>
+ <script>
+     onload=function(){
+        setInterval(go,1000)
+     };
+     var x=4;
+     function go(){
+         
+         if(x>0){
+         
+             document.getElementById("sp").innerText=x;
+         }
+         else{
+         
+             location.href="{% url 'home' %}";
+         
+         }
+         x--;
+     
+     }
+ </script>
+ <a href="{% url 'home' %}"><br>返回首頁</a>
+ </div>
+</body>
+
+</html>
