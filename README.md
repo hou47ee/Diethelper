@@ -20,3 +20,8 @@
 <img src="photo/預設100g.png" alt="Cover" width="50%"/> <br>
 
 <img src="photo/客製化重量計算.png" alt="Cover" width="50%"/> <br>
+
+### - 加入會員
+<img src="photo/註冊會員.png" alt="Cover" width="50%"/> <br>
+### - 會員登入
+<img src="photo/會員登入.png" alt="Cover" width="50%"/> <br>
