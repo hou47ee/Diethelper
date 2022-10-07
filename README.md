@@ -7,27 +7,27 @@
 
 ## 普通版
 ### - Execution
-<img src="photo/initial.png" alt="Cover" width="50%"/> <br>
+<img src="photo/initial.png" alt="Cover" width="40%"/> <br>
 
 ### - 訪客查詢 by 輸入食品名稱
-<img src="photo/查詢0_輸入食品名稱.png" alt="Cover" width="50%"/> <br>
+<img src="photo/查詢0_輸入食品名稱.png" alt="Cover" width="40%"/> <br>
 
 ### - 訪客查詢 by 選擇食品類別
-<img src="photo/查詢1_選擇食品類別.png" alt="Cover" width="50%"/> <br>
+<img src="photo/查詢1_選擇食品類別.png" alt="Cover" width="40%"/> <br>
 #### 再選擇目標食品
-<img src="photo/查詢1_選擇目標食品.png" alt="Cover" width="50%"/> <br>
+<img src="photo/查詢1_選擇目標食品.png" alt="Cover" width="40%"/> <br>
 
-<img src="photo/預設100g.png" alt="Cover" width="50%"/> <br>
+<img src="photo/預設100g.png" alt="Cover" width="40%"/> <br>
 
-<img src="photo/客製化重量計算.png" alt="Cover" width="50%"/> <br>
+<img src="photo/客製化重量計算.png" alt="Cover" width="40%"/> <br>
 
 ### - 加入會員
-<img src="photo/註冊會員.png" alt="Cover" width="50%"/> <br>
+<img src="photo/註冊會員.png" alt="Cover" width="40%"/> <br>
 ### - 會員登入
-<img src="photo/會員登入.png" alt="Cover" width="50%"/> <br>
+<img src="photo/會員登入.png" alt="Cover" width="40%"/> <br>
 #### 密碼錯誤
-<img src="photo/登入密碼錯誤.png" alt="Cover" width="50%"/> <br>
+<img src="photo/登入密碼錯誤.png" alt="Cover" width="40%"/> <br>
 #### 登入成功
-<img src="photo/登入成功.png" alt="Cover" width="50%"/> <br>
+<img src="photo/登入成功.png" alt="Cover" width="40%"/> <br>
 ### - About Body
-<img src="photo/about_body.png" alt="Cover" width="50%"/> <br>
+<img src="photo/about_body.png" alt="Cover" width="40%"/> <br>
