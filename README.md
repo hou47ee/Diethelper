@@ -25,3 +25,9 @@
 <img src="photo/註冊會員.png" alt="Cover" width="50%"/> <br>
 ### - 會員登入
 <img src="photo/會員登入.png" alt="Cover" width="50%"/> <br>
+#### 密碼錯誤
+<img src="photo/登入密碼錯誤.png" alt="Cover" width="50%"/> <br>
+#### 登入成功
+<img src="photo/登入成功.png" alt="Cover" width="50%"/> <br>
+### - About Body
+<img src="photo/about_body.png" alt="Cover" width="50%"/> <br>
