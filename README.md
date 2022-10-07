@@ -30,6 +30,7 @@
 #### 登入成功
 <img src="photo/登入成功.png" alt="Cover" width="35%"/> <br>
 ### - About Body
+`會顯示最新資料` <br>
 <img src="photo/about_body.png" alt="Cover" width="35%"/> <br>
 #### 新增資料
 <img src="photo/新增資料.png" alt="Cover" width="35%"/> <br>
@@ -37,3 +38,5 @@
 <img src="photo/新增資料成功.png" alt="Cover" width="35%"/> <br>
 #### 修改資料
 <img src="photo/修改資料.png" alt="Cover" width="35%"/> <br>
+#### 查詢過去資料
+<img src="photo/查詢過去紀錄.png" alt="Cover" width="35%"/> <br>
