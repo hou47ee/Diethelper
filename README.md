@@ -17,4 +17,6 @@
 #### 再選擇目標食品
 <img src="photo/查詢1_選擇目標食品.png" alt="Cover" width="50%"/> <br>
 
-<img src="photo/查詢1_選擇目標食品.png" alt="Cover" width="50%"/> <br>
+<img src="photo/預設100g.png" alt="Cover" width="50%"/> <br>
+
+<img src="photo/客製化重量計算.png" alt="Cover" width="50%"/> <br>
