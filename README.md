@@ -4,4 +4,8 @@
 >| 普通版--`Python`+`SQLite`<br>
 >| 網頁版--`Python`+`SQLite`+`HTML/CSS`+`Django`
 > - 網路與資料庫程式設計課程之期中 & 期末專題
-> 
+
+## 普通版
+### Execution
+<img src="photo/initial.png" alt="Cover" width="50%"/> <br>
+
