@@ -6,6 +6,15 @@
 > - 網路與資料庫程式設計課程之期中 & 期末專題
 
 ## 普通版
-### Execution
+### - Execution
 <img src="photo/initial.png" alt="Cover" width="50%"/> <br>
 
+### - 訪客查詢 by 輸入食品名稱
+<img src="photo/查詢0_輸入食品名稱.png" alt="Cover" width="50%"/> <br>
+
+### - 訪客查詢 by 選擇食品類別
+<img src="photo/查詢1_選擇食品類別.png" alt="Cover" width="50%"/> <br>
+#### 再選擇目標食品
+<img src="photo/查詢1_選擇目標食品.png" alt="Cover" width="50%"/> <br>
+
+<img src="photo/查詢1_選擇目標食品.png" alt="Cover" width="50%"/> <br>
