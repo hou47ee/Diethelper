@@ -40,3 +40,4 @@
 <img src="photo/修改資料.png" alt="Cover" width="35%"/> <br>
 #### 查詢過去資料
 <img src="photo/查詢過去紀錄.png" alt="Cover" width="35%"/> <br>
+## 簡易網頁版
