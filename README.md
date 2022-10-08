@@ -47,4 +47,20 @@
 <img src="photo/會員註冊.png" alt="Cover" width="35%"/> <br>
 #### 註冊失敗
 <img src="photo/名稱已被人使用.png" alt="Cover" width="35%"/> <br>
-<img src="photo/兩次密碼輸入不同.png" alt="Cover" width="35%"/> <br>
+<img src="photo/兩次密碼不同.png" alt="Cover" width="35%"/> <br>
+#### 註冊成功
+<img src="photo/註冊成功.png" alt="Cover" width="35%"/> <br>
+### - 登入會員
+<img src="photo/登入.png" alt="Cover" width="35%"/> <br>
+### - 成功登入
+<img src="photo/成功登入.png" alt="Cover" width="35%"/> <br>
+### - 我的身體資訊
+<img src="photo/我的身體紀錄.png" alt="Cover" width="35%"/> <br>
+### - 新增資料
+<img src="photo/新增資料web.png" alt="Cover" width="35%"/> <br>
+#### 計算 BMI
+<img src="photo/計算BMI.png" alt="Cover" width="35%"/> <br>
+#### 新增成功
+<img src="photo/成功紀錄.png" alt="Cover" width="35%"/> <br>
+### - 查詢過去資料
+<img src="photo/查詢過去.png" alt="Cover" width="35%"/> <br>
