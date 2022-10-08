@@ -41,3 +41,10 @@
 #### 查詢過去資料
 <img src="photo/查詢過去紀錄.png" alt="Cover" width="35%"/> <br>
 ## 簡易網頁版
+### - 首頁
+<img src="photo/首頁.png" alt="Cover" width="35%"/> <br>
+### - 會員註冊
+<img src="photo/會員註冊.png" alt="Cover" width="35%"/> <br>
+#### 註冊失敗
+<img src="photo/名稱已被人使用.png" alt="Cover" width="35%"/> <br>
+<img src="photo/兩次密碼輸入不同.png" alt="Cover" width="35%"/> <br>
