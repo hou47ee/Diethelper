@@ -62,5 +62,11 @@
 <img src="photo/計算BMI.png" alt="Cover" width="35%"/> <br>
 #### 新增成功
 <img src="photo/成功紀錄.png" alt="Cover" width="35%"/> <br>
-### - 查詢過去資料
+### - 查詢過去紀錄
 <img src="photo/查詢過去.png" alt="Cover" width="35%"/> <br>
+#### 刪除資料
+<img src="photo/刪除1.png" alt="Cover" width="35%"/> <br>
+#### 成功刪除
+<img src="photo/刪除2.png" alt="Cover" width="35%"/> <br>
+#### 登出
+<img src="photo/登出.png" alt="Cover" width="35%"/> <br>
