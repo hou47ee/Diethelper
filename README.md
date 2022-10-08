@@ -70,5 +70,5 @@
 <img src="photo/刪除1.png" alt="Cover" width="35%"/> <br>
 #### 成功刪除
 <img src="photo/刪除2.png" alt="Cover" width="35%"/> <br>
-#### 登出
+### - 登出
 <img src="photo/登出.png" alt="Cover" width="35%"/> <br>
