@@ -18,9 +18,9 @@
 <img src="photo/查詢1_選擇食品類別.png" alt="Cover" width="35%"/> <br>
 #### 再選擇目標食品
 <img src="photo/查詢1_選擇目標食品.png" alt="Cover" width="35%"/> <br>
-
+#### 預設為每 100g 之含量
 <img src="photo/預設100g.png" alt="Cover" width="35%"/> <br>
-
+#### 可自己欲查詢之重量
 <img src="photo/客製化重量計算.png" alt="Cover" width="35%"/> <br>
 
 ### - 加入會員
